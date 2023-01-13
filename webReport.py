@@ -3,8 +3,8 @@ import openpyxl as xl
 import matplotlib.pyplot as plt
 from string import capwords
 
-studentDataWB = xl.load_workbook(r'D:\Python_Projects\TrBrittneyInvoice\studentCost.xlsx')
-invoiceDataWB = xl.load_workbook(r'D:\Python_Projects\TrBrittneyInvoice\InvoiceList_Jan2023.xlsx')
+studentDataWB = xl.load_workbook(r'studentCost.xlsx')
+invoiceDataWB = xl.load_workbook(r'InvoiceList_Jan2023.xlsx')
 studentData = {}
 invoiceData = {}
 overDueData = {}
