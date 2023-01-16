@@ -60,7 +60,7 @@ for className in studentData:
     # plt.show()
 
     fig1, ax1 = plt.subplots()
-    ax1.pie(invoiceReport, labels=invoiceReportLabel, autopct='%1.1f%%', startangle=270)
+    ax1.pie(invoiceReport, labels=invoiceReportLabel, autopct='%1.1f%%', startangle=270, colors=['r','g'])
     ax1.legend(labels=invoiceReportLegendLabel, title=className, loc=1)
     ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
 
